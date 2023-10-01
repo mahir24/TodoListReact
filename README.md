@@ -1,8 +1,28 @@
-# React + Vite
+# TodoListReact
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+A simple Todo List application built using React and Vite.
 
-Currently, two official plugins are available:
+## Features
+- **Add Todo**: Easily add new todo items.
+- **Toggle Todo**: Mark todo items as completed or incomplete.
+- **Delete Todo**: Remove todo items from the list.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## File Structure
+### Configuration
+- [`.eslintrc.cjs`](https://github.com/mahir24/TodoListReact/blob/master/.eslintrc.cjs): ESLint configuration.
+- [`vite.config.js`](https://github.com/mahir24/TodoListReact/blob/master/vite.config.js): Vite configuration.
+
+### HTML and Styles
+- [`index.html`](https://github.com/mahir24/TodoListReact/blob/master/index.html): Main HTML file.
+- [`src/styles.css`](https://github.com/mahir24/TodoListReact/blob/master/src/styles.css): Stylesheet for the app.
+
+### React Components
+- [`src/App.jsx`](https://github.com/mahir24/TodoListReact/blob/master/src/App.jsx): Main App component.
+- [`src/NewTodoForm.jsx`](https://github.com/mahir24/TodoListReact/blob/master/src/NewTodoForm.jsx): Form for adding new todos.
+- [`src/TodoItem.jsx`](https://github.com/mahir24/TodoListReact/blob/master/src/TodoItem.jsx): Individual todo items.
+- [`src/TodoList.jsx`](https://github.com/mahir24/TodoListReact/blob/master/src/TodoList.jsx): List of todo items.
+
+### Entry Point
+- [`src/main.jsx`](https://github.com/mahir24/TodoListReact/blob/master/src/main.jsx): Entry point for the application.
+
